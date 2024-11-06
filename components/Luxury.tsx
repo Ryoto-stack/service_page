@@ -42,11 +42,11 @@ function AboutUs() {
                 </li>
                 <li className="p-4">
                   <h4 className="text-lg font-medium leading-loose">
-                    Who's Who in Luxury Real Estate
+                    Who`&apos;`s Who in Luxury Real Estate
                   </h4>
                   <p className="text-gray-500">
-                    Who’s Who in Luxury Real Estate is a global collection of
-                    luxury real estate brokers.
+                    Who`&apos;`s Who in Luxury Real Estate is a global
+                    collection of luxury real estate brokers.
                   </p>
                 </li>
               </ul>

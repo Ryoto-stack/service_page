@@ -11,10 +11,10 @@ function Strategy() {
           </h1>
 
           <p className="px-40 text-center">
-            ​​​​​​​The Bay Area remains one of the world's most sought-after
-            regions to live in, and when looking to sell, it is vital that your
-            home be marketed online to audiences locally, nationally, and
-            internationally.
+            ​​​​​​​The Bay Area remains one of the world`&apos;`s most
+            sought-after regions to live in, and when looking to sell, it is
+            vital that your home be marketed online to audiences locally,
+            nationally, and internationally.
           </p>
         </div>
         <img src="/image-057.jpg" alt="realtor" className="h-5 w-72  my-5" />

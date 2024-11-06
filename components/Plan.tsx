@@ -21,7 +21,8 @@ function Plan() {
           <img src="/image-085.jpg" alt="envelope" className="h-[200px]" />
           <h1 className="text-3xl mb-5">Virtual Tour</h1>
           <p>
-            Let's make your home stand out with a high quality virtual tour.
+            Let`&apos;`s make your home stand out with a high quality virtual
+            tour.
           </p>
         </div>
         <div className="items-center flex flex-col">

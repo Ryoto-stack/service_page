@@ -1,23 +1,5 @@
 import React from "react";
 
-const stories = [
-  {
-    text: "Beautiful and easy to understand UI.",
-  },
-  {
-    text: "Theme advantages are pixel perfect design & clear code",
-  },
-  {
-    text: "Present your services with flexible",
-  },
-  {
-    text: "Find more creative ideas for your projects",
-  },
-  {
-    text: "Faucibus porta lacus fringilla vel",
-  },
-];
-
 function About() {
   return (
     <main className="pb-14 md:pb-24 px-40">
