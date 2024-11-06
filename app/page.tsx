@@ -8,21 +8,20 @@ import Maps from "@/components/Maps";
 import Plan from "@/components/Plan";
 import SellProcess from "@/components/SellProcess";
 import Strategy from "@/components/Strategy";
-import React, { useState } from "react";
+import React from "react";
 import SearchForm from "@/components/Search";
 import Appointment from "@/components/Appointment";
+import Link from "next/link";
 
 function Page() {
   return (
     <main className="bg-white h-full max-w-[1480px] text-black">
       <Head />
       <section className="relative w-full bg-[url('/bg-top.jpg')] h-[700px] flex flex-col  bg-cover bg-center bg-no-repeat">
-        {/* Gray overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40"></div>
 
         <div className="items-center h-full justify-center flex-col flex">
           <h1 className="font-bold text-5xl text-white mb-10 z-10">SERVICES</h1>{" "}
-          {/* Ensure text-white is applied and in front of overlay */}
           <div className="flex flex-row gap-10 z-10">
             <SearchForm />
             <Appointment />
@@ -98,12 +97,12 @@ function Page() {
             team is here to ensure that your dreams are a reality. Let us guide
             you through your home buying journey, contact us today!
           </p>
-          <a
+          <Link
             href="/"
             className="border-2 px-10 h-12 items-center justify-center flex mt-20"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -140,7 +139,7 @@ function Page() {
               ​​​​​​​Julie Hansen-Orvis | CA DRE# 00934447
             </p>
             <div className="items-center flex justify-center">
-              <a href="/" className="mt-4">
+              <Link href="/" className="mt-4">
                 <svg
                   width="30"
                   height="30"
@@ -154,9 +153,9 @@ function Page() {
                     fill="#343C54"
                   />
                 </svg>
-              </a>
+              </Link>
 
-              <a href="/" className="mt-4">
+              <Link href="/" className="mt-4">
                 <svg
                   width="30"
                   height="30"
@@ -170,7 +169,7 @@ function Page() {
                     fill="#343C54"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <p className="ml-8 mt-36">
@@ -210,12 +209,12 @@ function Page() {
             </div>
           </form>
           <div>
-            <a
+            <Link
               href="/"
               className="border-2 border-black px-2 max-w-[120px] items-center justify-center h-12 flex mt-3 ml-8 hover:border-red-500"
             >
               Submit
-            </a>
+            </Link>
 
             <div className="w-full mt-10 flex flex-row items-center ml-8 ">
               <img

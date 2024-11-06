@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Top() {
   const [showNav, setShowNav] = useState(true);
@@ -45,28 +46,28 @@ export default function Top() {
         <div className="flex w-full">
           <ul className="flex gap-6 text-sm">
             <li className="font-bold text-white">
-              <a href="/">MEET THE TEAM</a>
+              <Link href="/">MEET THE TEAM</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">SEARCH FOR HOMES</a>
+              <Link href="/">SEARCH FOR HOMES</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">OUR COMMUNITIES</a>
+              <Link href="/">OUR COMMUNITIES</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">HOME VALUATION</a>
+              <Link href="/">HOME VALUATION</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">SERVICES</a>
+              <Link href="/">SERVICES</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">HOME ACROSS AMERICA</a>
+              <Link href="/">HOME ACROSS AMERICA</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">TESTIMONIALS</a>
+              <Link href="/">TESTIMONIALS</Link>
             </li>
             <li className="font-bold text-white">
-              <a href="/">CONTACT US</a>
+              <Link href="/">CONTACT US</Link>
             </li>
           </ul>
         </div>
