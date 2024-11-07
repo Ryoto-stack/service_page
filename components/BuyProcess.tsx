@@ -2,13 +2,13 @@ import React from "react";
 
 function BuyProcess() {
   return (
-    <main className="w-full pb-14 md:pb-24">
-      <h2 className="text-3xl font-bold md:text-[45px] mb-4 text-black text-center mb-10">
+    <main className="w-full pb-14 md:pb-24 max-w-[1400px] mx-auto">
+      <h2 className="text-4xl font-bold text-black text-center mb-16">
         The Buying Process
       </h2>
-      <section className="grid grid-cols-2 gap-5 px-10">
+      <section className="grid grid-cols-2 gap-16 items-center">
         <div>
-          <img src="/image-004.jpg" alt="signing" />
+          <img src="/image-004.jpg" alt="signing" className="rounded-xl" />
         </div>
         <div>
           <ul className="timeline flex flex-col items-start">
@@ -19,7 +19,7 @@ function BuyProcess() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-8 w-8 text-blue-500"
+                  className="h-8 w-8 text-[#A6942C]"
                 >
                   <path
                     fillRule="evenodd"
@@ -29,7 +29,7 @@ function BuyProcess() {
                 </svg>
                 <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
               </div>
-              <div className="timeline-end timeline-box text-3xl">
+              <div className="timeline-end timeline-box text-2xl">
                 Initial Consultation & Planning
               </div>
             </li>
@@ -42,7 +42,7 @@ function BuyProcess() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-8 w-8 text-blue-500"
+                  className="h-8 w-8 text-[#A6942C]"
                 >
                   <path
                     fillRule="evenodd"
@@ -52,7 +52,7 @@ function BuyProcess() {
                 </svg>
                 <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
               </div>
-              <div className="timeline-end timeline-box text-3xl">
+              <div className="timeline-end timeline-box text-2xl">
                 Search for a Home & Get Pre-Approved
               </div>
             </li>
@@ -65,7 +65,7 @@ function BuyProcess() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-8 w-8 text-blue-500"
+                  className="h-8 w-8 text-[#A6942C]"
                 >
                   <path
                     fillRule="evenodd"
@@ -75,7 +75,7 @@ function BuyProcess() {
                 </svg>
                 <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
               </div>
-              <div className="timeline-end timeline-box text-3xl">
+              <div className="timeline-end timeline-box text-2xl">
                 Submit an Offer
               </div>
             </li>
@@ -88,7 +88,7 @@ function BuyProcess() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-8 w-8 text-blue-500"
+                  className="h-8 w-8 text-[#A6942C]"
                 >
                   <path
                     fillRule="evenodd"
@@ -96,9 +96,9 @@ function BuyProcess() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
+                {/* <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div> */}
               </div>
-              <div className="timeline-end timeline-box text-3xl">
+              <div className="timeline-end timeline-box text-2xl">
                 Complete Settlement Process
               </div>
             </li>
