@@ -3,7 +3,7 @@ import React from "react";
 function BuyProcess() {
   return (
     <main className="w-full pb-14 md:pb-24 max-w-[1400px] mx-auto">
-      <h2 className="text-4xl font-bold text-black text-center mb-16">
+      <h2 className="text-4xl font-bold text-black text-center mb-16 uppercase">
         The Buying Process
       </h2>
       <section className="grid grid-cols-2 gap-16 items-center">

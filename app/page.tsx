@@ -19,17 +19,20 @@ function Page() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40"></div>
 
         <div className="items-center h-full justify-center flex-col flex">
-          <h1 className=" text-5xl text-white mb-10 z-10 font-bold">Services</h1>{" "}
+          <h1 className=" text-5xl text-white mb-10 z-10 font-bold uppercase">
+            Services
+          </h1>{" "}
           <div className="flex flex-row gap-10 z-10">
-            <button className="text-white uppercase font bold border border-white px-6 py-4 hover:bg-white hover:text-black transition-all duration-150">Search Homes</button>
-            <button className="hover:text-white hover:bg-transparent uppercase font bold border border-white px-6 py-4 bg-white text-black transition-all duration-150">Book Appointment</button>
-            {/* <SearchForm /> */}
-            {/* <Appointment /> */}
+            <button className="text-white uppercase font bold border border-white px-6 py-4 hover:bg-white hover:text-black transition-all duration-150">
+              Search Homes
+            </button>
+            <button className="hover:text-white hover:bg-transparent uppercase font bold border border-white px-6 py-4 bg-white text-black transition-all duration-150">
+              Book Appointment
+            </button>
           </div>
         </div>
       </section>
 
-      {/* <Divider /> */}
       <section>
         <Plan />
       </section>
@@ -38,12 +41,18 @@ function Page() {
         <section className="relative w-full bg-[url('/page-3.jpg')] h-[500px] flex  bg-cover bg-center bg-no-repeat">
           <div className="absolute inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40 flex items-center justify-center">
             <div className="items-center justify-center flex-col flex w-full ">
-              <img src="/jhsereno-light.png" alt="logo" className="h-20 pb-5 " />
+              <img
+                src="/jhsereno-light.png"
+                alt="logo"
+                className="h-20 pb-5 "
+              />
               <div className="flex flex-row gap-10">
                 <button className="text-white uppercase font bold border border-white px-6 py-4 hover:bg-white hover:text-black transition-all duration-150">
                   Meet the team
                 </button>
-                <button className="hover:text-white hover:bg-transparent uppercase font bold border border-white px-6 py-4 bg-white text-black transition-all duration-150">Home Valuation</button>
+                <button className="hover:text-white hover:bg-transparent uppercase font bold border border-white px-6 py-4 bg-white text-black transition-all duration-150">
+                  Home Valuation
+                </button>
               </div>
             </div>
           </div>
@@ -54,47 +63,35 @@ function Page() {
         <Expertises />
       </section>
 
-      {/* <Divider /> */}
-
       <section>
         <SellProcess />
       </section>
-
-      {/* <Divider /> */}
 
       <section>
         <BuyProcess />
       </section>
 
-      {/* <Divider /> */}
-
       <section>
         <About />
       </section>
-
-      {/* <Divider /> */}
 
       <section>
         <Strategy />
       </section>
 
-      {/* <Divider /> */}
-
       <section>
         <Luxury />
       </section>
-
-      {/* <Divider /> */}
 
       <section>
         <Maps />
       </section>
 
-      {/* <Divider /> */}
-
       <section className="text-white relative w-full bg-[url('/work-with-us.jpg')] min-h-[700px] flex pt-10 bg-cover bg-center bg-no-repeat">
         <div className="absolute items-center p-44 justify-center flex flex-col inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40">
-          <h1 className="text-5xl pb-10 underline-heading">Work With Us</h1>
+          <h1 className="text-5xl pb-10 underline-heading uppercase">
+            Work With Us
+          </h1>
           <p className="text-center px-48 text-xl font-extralight mt-10">
             With decades of experience in luxurious Tri Valley real estate, our
             team is here to ensure that your dreams are a reality. Let us guide
@@ -102,7 +99,7 @@ function Page() {
           </p>
           <Link
             href="/"
-            className="border-2 px-10 h-12 items-center justify-center flex mt-20 hover:bg-white "
+            className="border-2 px-10 h-12 items-center justify-center flex mt-20 hover:bg-white uppercase "
           >
             Contact Us
           </Link>
@@ -214,7 +211,7 @@ function Page() {
           <div>
             <Link
               href="/"
-              className="border-2 border-black px-2 max-w-[120px] items-center justify-center h-12 flex mt-3 ml-8 hover:bg-black hover:text-white"
+              className="border-2 border-black px-2 max-w-[120px] items-center justify-center h-12 flex mt-3 ml-8 hover:bg-black hover:text-white uppercase"
             >
               Submit
             </Link>

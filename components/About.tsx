@@ -1,49 +1,64 @@
 import React from "react";
+import Image from "next/image";
 
 function About() {
   return (
     <main className="pb-14 md:pb-24 px-40">
-      <section className="grid grid-cols-2 gap-5">
-        <div className="flex flex-col h-full justify-center">
-          <h1 className="text-7xl font-bold ">
-            Over <span className="underline">33 Years</span> of Real Estate
-            Success
-          </h1>
-          <p className="text-lg pt-5">
-            We provide every one of our clients with a level of service they
-            won’t find anywhere else. We give them what they need, often before
-            they know they need it. ​​​​​​​In real estate, almost everything can
-            be negotiated. When you choose Hansen Partners, experience is 100%
-            nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an experience like no other.
-          </p>
-        </div>
-        <div>
-          <img src="/edited-p-12.jpg" alt="market" />
-        </div>
-      </section>
-      <section className="grid grid-cols-2 gap-5 ">
-        <div>
-          <img src="/edit-page-11r2.jpg" alt="years" />
-        </div>
-        <div className="flex flex-col h-full justify-center">
-          <h1 className="text-6xl font-bold ">
-            We Want To Create An Unforgettable Experience For You...
-          </h1>
-          <p className="text-lg pt-5">
-            We combine data gained from your home’s Comparative Market Analysis
-            with local market research to create a marketing plan designed to
-            help you meet your selling goals. Your home’s carefully designed
-            plan will include a range of online, print, and other marketing
-            tools targeted to the best-qualified pool of buyers. ​​​​​​​
-            Successfully marketing a home in today’s real estate environment
-            requires a firm with experience and flexibility. Hansen Partners
-            provides both.
-          </p>
-        </div>
-      </section>
-      <section className="grid grid-cols-2 gap-5 w-full">
+      <div>
+        <section className="grid grid-cols-2 gap-6 flex-row mb-10">
+          <div>
+            <Image
+              src="/edit-page-11r2.jpg"
+              height={999}
+              width={999}
+              alt="years"
+              className="bg-cover bg-center bg-no-repeat h-full w-full"
+            />
+          </div>
+          <div>
+            <Image
+              src="/edited-p-12.jpg"
+              height={999}
+              width={999}
+              alt="years"
+              className="bg-cover bg-center bg-no-repeat h-full w-full"
+            />
+          </div>
+        </section>
+        <section className="grid grid-cols-2 gap-6">
+          <div>
+            <h1 className="text-2xl uppercase font-bold pb-5">
+              Over 33 Years of Real Estate Success
+            </h1>
+            <p className="pt-9">
+              We provide every one of our clients with a level of service they
+              won’t find anywhere else. We give them what they need, often
+              before they know they need it. ​​​​​​​In real estate, almost
+              everything can be negotiated. When you choose Hansen Partners It
+              is experience is 100% nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an
+              experience like no other.
+            </p>
+          </div>
+          <div>
+            <h1 className="text-2xl uppercase font-bold pb-5">
+              We Want To Create An Unforgettable Experience For You...{" "}
+            </h1>
+            <p>
+              We combine data gained from your home’s Comparative Market
+              Analysis with local market research to create a marketing plan
+              designed to help you meet your selling goals. Your home’s
+              carefully designed plan will include a range of online, print, and
+              other marketing tools targeted to the best-qualified pool of
+              buyers. ​​​​​​​ Successfully marketing a home in today’s real
+              estate environment requires a firm with experience and
+              flexibility. Hansen Partners provides both.
+            </p>
+          </div>
+        </section>
+      </div>
+      <section className="grid grid-cols-2 gap-5 w-full pt-14 md:pt-24">
         <div className="p-7 flex items-center flex-col justify-center">
-          <h1 className="text-5xl font-bold ">
+          <h1 className="text-4xl font-bold uppercase ">
             The Hansen Partners Communications Tablet
           </h1>
           <p className="pt-5">
@@ -51,7 +66,7 @@ function About() {
             with you daily, provide you with updates on what is happening with
             your home. We are available at the with a click of your tablet.
           </p>
-          <div className="space-y-4">
+          <div className="space-y-4 items-start flex w-full mt-16">
             <details
               className="group [&_summary::-webkit-details-marker]:hidden"
               open

@@ -65,7 +65,7 @@ const SellProcess: React.FC = () => {
 
         <div className="relative z-10 px-4 flex items-center justify-center flex-col max-w-[1400px] mx-auto">
           <div className="flex flex-col max-w-2xl justify-center items-center text-center">
-            <h2 className="text-4xl font-bold mb-4 text-white">
+            <h2 className="text-4xl font-bold mb-4 text-white uppercase">
               The Selling Process
             </h2>
             <p className="text-lg opacity-80 text-white">
@@ -77,10 +77,7 @@ const SellProcess: React.FC = () => {
 
           <div className="grid grid-cols-5 gap-6 mt-12 relative z-10">
             {contents.map((item, i) => (
-              <div
-                className="text-center flex w-full"
-                key={i}
-              >
+              <div className="text-center flex w-full uppercase" key={i}>
                 <ContentItemComponent item={item} />
               </div>
             ))}

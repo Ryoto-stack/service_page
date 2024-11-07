@@ -45,7 +45,7 @@ const FeatureItem: React.FC<FeatureItemProps> = ({ feature }) => {
         />
       </div>
       <div>
-        <h4 className="text-2xl font-medium mb-4">{feature.title}</h4>
+        <h4 className="text-2xl font-medium mb-4 uppercase">{feature.title}</h4>
         <p>{feature.desc}</p>
       </div>
     </div>
@@ -62,7 +62,7 @@ FeatureItem.propTypes = {
 
 const Maps: React.FC = () => {
   return (
-    <section>
+    <section className="pb-14 md:pb-24">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-2 gap-6 max-w-7xl mx-auto">
           <div className="col-span-2 lg:col-span-1">
