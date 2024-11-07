@@ -2,7 +2,7 @@ import React from "react";
 
 function Strategy() {
   return (
-    <main className="h-full w-full px-7 pb-14 md:pb-24">
+    <main className="h-full w-full px-7 pb-14 md:pb-24 max-w-[1400px] mx-auto">
       <section className="flex flex-col items-center justify-center">
         <div className="items-center flex-col flex justify-center">
           <h1 className="text-3xl">We Market Your Home to The World</h1>
@@ -10,8 +10,8 @@ function Strategy() {
             Our Online Marketing Strategy
           </h1>
 
-          <p className="px-40 text-center">
-            ​​​​​​​The Bay Area remains one of the world`&apos;`s most
+          <p className="px-40 text-center text-balance">
+            The Bay Area remains one of the world`&apos;`s most
             sought-after regions to live in, and when looking to sell, it is
             vital that your home be marketed online to audiences locally,
             nationally, and internationally.
@@ -24,7 +24,7 @@ function Strategy() {
             <h1 className="text-center pb-5 font-bold text-xl mt-5">
               Local Exposure
             </h1>
-            <p>
+            <p className="text-balance text">
               Through our partnership with Nextdoor, the private online social
               network now used in over 80% of U.S. neighborhoods and virtually
               all Bay Area neighborhoods, we make sure your home receives
@@ -41,7 +41,7 @@ function Strategy() {
             <h1 className="text-center pb-5 font-bold text-xl mt-5">
               National Exposure
             </h1>
-            <p>
+            <p className="text-balance">
               We secure strategic positioning and enhancement on Realtor.com,
               Trulia, and Zillow, driving more consumers to your home and
               increasing exposure. We will receive every inquiry about your
@@ -53,7 +53,7 @@ function Strategy() {
             <h1 className="text-center pb-5 font-bold text-xl mt-5">
               International Exposure
             </h1>
-            <p>
+            <p className="text-balance">
               To expose your luxury listing to millions of potential homebuyers
               worldwide, we promote on prominent international real estate
               portals, including: Wall Street Journal, LuxuryPortfolio.com,

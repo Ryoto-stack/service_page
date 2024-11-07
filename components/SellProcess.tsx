@@ -34,7 +34,7 @@ const CountUp: React.FC<{ maxCount: number }> = ({ maxCount }) => {
 
   useEffect(() => {
     if (count < maxCount) {
-      const timeout = setTimeout(() => setCount(count + 1), 500); // Adjust timing as desired
+      const timeout = setTimeout(() => setCount(count + 1), 100); // Adjust timing as desired
       return () => clearTimeout(timeout);
     }
   }, [count, maxCount]);
@@ -43,9 +43,9 @@ const CountUp: React.FC<{ maxCount: number }> = ({ maxCount }) => {
 };
 
 const ContentItemComponent: React.FC<{ item: ContentItem }> = ({ item }) => (
-  <div className="bg-white bg-opacity-20 backdrop-blur-md shadow-xl rounded-2xl h-full p-6 flex flex-col items-center">
+  <div className="bg-white bg-opacity-20 backdrop-blur-md shadow-xl rounded-lg h-full p-6 flex flex-col items-center">
     <CountUp maxCount={item.maxCount} />
-    <h5 className="text-2xl font-bold mb-4 text-center">{item.title}</h5>
+    <h5 className="text-xl font-bold mb-4 text-center">{item.title}</h5>
   </div>
 );
 
@@ -63,9 +63,9 @@ const SellProcess: React.FC = () => {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
-        <div className="relative z-10 px-4 flex items-center justify-center flex-col">
+        <div className="relative z-10 px-4 flex items-center justify-center flex-col max-w-[1400px] mx-auto">
           <div className="flex flex-col max-w-2xl justify-center items-center text-center">
-            <h2 className="text-3xl font-bold md:text-[45px] mb-4 text-white">
+            <h2 className="text-4xl font-bold mb-4 text-white">
               The Selling Process
             </h2>
             <p className="text-lg opacity-80 text-white">
@@ -78,7 +78,7 @@ const SellProcess: React.FC = () => {
           <div className="grid grid-cols-5 gap-6 mt-12 relative z-10">
             {contents.map((item, i) => (
               <div
-                className="col-span-5 sm:col-span-2 lg:col-span-1 text-center flex"
+                className="text-center flex w-full"
                 key={i}
               >
                 <ContentItemComponent item={item} />
