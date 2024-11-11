@@ -9,10 +9,10 @@ function AboutUs() {
             <h1 className="uppercase text-4xl md:text-6xl leading-tight flex justify-center w-full font-medium mb-10">
               ABOUT US
             </h1>
-            <div className="flex justify-center gap-10 pb-10">
-              <img src="/image-060.jpg" alt="Logo 1" className="h-20 w-auto" />
-              <img src="/image-069.jpg" alt="Logo 2" className="h-20 w-auto" />
-              <img src="/image-070.jpg" alt="Logo 3" className="h-20 w-auto" />
+            <div className="flex justify-center flex-col md:flex-row gap-10 pb-10 px-5 md:px-0">
+              <img src="/image-060.jpg" alt="Logo 1" className="h-20" />
+              <img src="/image-069.jpg" alt="Logo 2" className="h-20" />
+              <img src="/image-070.jpg" alt="Logo 3" className="h-20" />
             </div>
             <hr className="w-24 h-1 bg-black dark:bg-white opacity-100 my-6" />
             <div className="mx-auto max-w-lg">
@@ -50,14 +50,14 @@ function AboutUs() {
                   </p>
                 </li>
               </ul>
-              <h1 className="my-5">
+              <h1 className="my-5 px-5">
                 Through our international affiliations, we have a strong
                 presence in over 50 countries. Our luxury listings are sent to
                 prominent international real estate sites, reaching over 70
                 million potential buyers and investors worldwide through our
                 relationships with:
               </h1>
-              <h1>
+              <h1 className="px-5">
                 We also have several well-positioned affiliate offices in China,
                 providing our clients with access to buyers in Hong Kong,
                 Shanghai, and Beijing.{" "}

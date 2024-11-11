@@ -3,10 +3,10 @@ import React from "react";
 function Plan() {
   return (
     <section className="py-14 md:py-24 max-w-[1400px] mx-auto">
-      <h1 className="w-full justify-center flex text-4xl font-bold uppercase">
+      <h1 className="w-full justify-center flex text-2xl text-center px-5 md:text-4xl font-bold uppercase">
         Comprehensive Marketing Plan
       </h1>
-      <div className="grid grid-cols-4 gap-4  p-5 text-center ">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4  p-5 text-center ">
         <div className="items-center flex flex-col">
           <img src="/image-087.jpg" alt="envelope" className="h-[200px]" />
           <h1 className="text-2xl mb-5 font-bold uppercase">Responsive</h1>

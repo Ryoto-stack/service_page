@@ -6,7 +6,7 @@ function BuyProcess() {
       <h2 className="text-4xl font-bold text-black text-center mb-16 uppercase">
         The Buying Process
       </h2>
-      <section className="grid grid-cols-2 gap-16 items-center">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center px-5">
         <div>
           <img src="/image-004.jpg" alt="signing" className="rounded-xl" />
         </div>

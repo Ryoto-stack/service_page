@@ -28,9 +28,8 @@ export default function Top() {
 
   return (
     <nav
-      className={`flex sm:px-8 w-full h-20 justify-center tracking-wide z-50 flex-col sticky top-0 bg-opacity-100 bg-gray-700 shadow-md transition-transform duration-300 ${
-        showNav ? "transform-none" : "transform -translate-y-full"
-      }`}
+      className={`flex sm:px-8 w-full h-20 justify-center tracking-wide z-50 flex-col sticky top-0 bg-opacity-100 bg-gray-700 shadow-md transition-transform duration-300 ${showNav ? "transform-none" : "transform -translate-y-full"
+        }`}
     >
       <div className="relative flex justify-center gap-8">
         <div className="pr-2">
@@ -43,7 +42,8 @@ export default function Top() {
             />
           </a>
         </div>
-        <div className="flex w-full">
+
+        <div className="hidden w-full md:flex">
           <ul className="flex gap-6 text-sm">
             <li className="font-bold text-white">
               <Link href="/">MEET THE TEAM</Link>

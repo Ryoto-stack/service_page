@@ -22,7 +22,7 @@ function Page() {
           <h1 className=" text-5xl text-white mb-10 z-10 font-bold uppercase">
             Services
           </h1>{" "}
-          <div className="flex flex-row gap-10 z-10">
+          <div className="flex flex-col md:flex-row gap-5 md:gap-10 z-10">
             <button className="text-white uppercase font bold border border-white px-6 py-4 hover:bg-white hover:text-black transition-all duration-150">
               Search Homes
             </button>
@@ -46,7 +46,7 @@ function Page() {
                 alt="logo"
                 className="h-20 pb-5 "
               />
-              <div className="flex flex-row gap-10">
+              <div className="flex flex-col md:flex-row md:gap-10 gap-5">
                 <button className="text-white uppercase font bold border border-white px-6 py-4 hover:bg-white hover:text-black transition-all duration-150">
                   Meet the team
                 </button>
@@ -88,11 +88,11 @@ function Page() {
       </section>
 
       <section className="text-white relative w-full bg-[url('/work-with-us.jpg')] min-h-[700px] flex pt-10 bg-cover bg-center bg-no-repeat">
-        <div className="absolute items-center p-44 justify-center flex flex-col inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40">
-          <h1 className="text-5xl pb-10 underline-heading uppercase">
+        <div className="absolute items-center p-5 md:p-44 justify-center flex flex-col inset-0 bg-gradient-to-r from-black/95 to-transparent sm:from-black/40 sm:to-black/40">
+          <h1 className="text-2xl md:text-5xl text-center pb-10 underline-heading uppercase">
             Work With Us
           </h1>
-          <p className="text-center px-48 text-xl font-extralight mt-10">
+          <p className="text-center px-0 md:px-48 text-xl font-extralight mt-10">
             With decades of experience in luxurious Tri Valley real estate, our
             team is here to ensure that your dreams are a reality. Let us guide
             you through your home buying journey, contact us today!

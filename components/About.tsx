@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function About() {
   return (
-    <main className="pb-14 md:pb-24 px-40">
+    <main className="pb-14 md:pb-24 px-5 md:px-40">
       <div>
-        <section className="grid grid-cols-2 gap-6 flex-row mb-10">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-row mb-10">
           <div>
             <Image
               src="/edit-page-11r2.jpg"
@@ -25,7 +25,7 @@ function About() {
             />
           </div>
         </section>
-        <section className="grid grid-cols-2 gap-6">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <h1 className="text-2xl uppercase font-bold pb-5">
               Over 33 Years of Real Estate Success
@@ -56,7 +56,7 @@ function About() {
           </div>
         </section>
       </div>
-      <section className="grid grid-cols-2 gap-5 w-full pt-14 md:pt-24">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full pt-14 md:pt-24">
         <div className="p-7 flex items-center flex-col justify-center">
           <h1 className="text-4xl font-bold uppercase ">
             The Hansen Partners Communications Tablet
