@@ -5,14 +5,14 @@ function Strategy() {
     <main className="h-full w-full px-7 pb-14 md:pb-24 max-w-[1400px] mx-auto">
       <section className="flex flex-col items-center justify-center">
         <div className="items-center flex-col flex justify-center">
-          <h1 className="text-3xl uppercase">
+          <h1 className="text-3xl text-center uppercase">
             We Market Your Home to The World
           </h1>
-          <h1 className="py-5 font-bold text-lg uppercase">
+          <h1 className="py-5 text-center font-bold text-lg uppercase">
             Our Online Marketing Strategy
           </h1>
 
-          <p className="px-40 text-center text-balance">
+          <p className="px-0 md:px-40 text-center text-balance">
             The Bay Area remains one of the world`&apos;`s most sought-after
             regions to live in, and when looking to sell, it is vital that your
             home be marketed online to audiences locally, nationally, and
@@ -20,7 +20,7 @@ function Strategy() {
           </p>
         </div>
         <img src="/image-057.jpg" alt="realtor" className="h-5 w-72  my-5" />
-        <div className="grid grid-cols-3 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-center">
           <div className="flex flex-col p-5">
             <img src="/pexels-pixabay-280221.jpg" alt="community" />
             <h1 className="text-center pb-5 font-bold text-xl mt-5 uppercase">

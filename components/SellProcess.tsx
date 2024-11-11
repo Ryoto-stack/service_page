@@ -43,7 +43,7 @@ const CountUp: React.FC<{ maxCount: number }> = ({ maxCount }) => {
 };
 
 const ContentItemComponent: React.FC<{ item: ContentItem }> = ({ item }) => (
-  <div className="bg-white bg-opacity-20 backdrop-blur-md shadow-xl rounded-lg h-full p-6 flex flex-col items-center">
+  <div className="bg-white bg-opacity-20 backdrop-blur-md w-full shadow-xl rounded-lg h-full p-6 flex flex-col items-center">
     <CountUp maxCount={item.maxCount} />
     <h5 className="text-xl font-bold mb-4 text-center">{item.title}</h5>
   </div>
@@ -75,7 +75,7 @@ const SellProcess: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-5 gap-6 mt-12 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mt-12 relative z-10">
             {contents.map((item, i) => (
               <div className="text-center flex w-full uppercase" key={i}>
                 <ContentItemComponent item={item} />
