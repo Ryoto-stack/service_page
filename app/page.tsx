@@ -106,8 +106,8 @@ function Page() {
         </div>
       </section>
 
-      <footer className="w-auto min-h-[400px] mx-28 my-8 flex flex-row">
-        <div className="flex flex-col p-10 w-full ">
+      <footer className="w-auto min-h-[400px] md:mx-28 my-8 flex flex-col md:flex-row">
+        <div className="flex flex-col p-5 md:p-10 w-full ">
           <div className="pb-10">
             <img
               src="/jhsereno-dark.png"
@@ -115,19 +115,19 @@ function Page() {
               className="h-7 w-52 items-left flex"
             />
           </div>
-          <div className="flex flex-row">
-            <div className="pl-8">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:pl-8">
               <p className="font-bold text-2xl">Julie Hansen Partnership</p>
               <p className="my-3">(925) 553-6707</p>
               <p>luxuryhomesinwc@icloud.com</p>
             </div>
-            <div className="pl-14">
+            <div className="md:pl-14">
               <p className="font-bold text-2xl">Address</p>
               <p className="my-3">4733 Chabot Drive #100</p>
               <p>Pleasanton, CA 94588</p>
             </div>
           </div>
-          <p className="w-full pl-8 mt-5">
+          <p className="w-full md:pl-8 mt-5">
             An elite group of the East Bay’s most talented and visionary real
             estate professionals believed buyers and sellers deserved more from
             their real estate company. More service. More resources. More
@@ -172,7 +172,7 @@ function Page() {
               </Link>
             </div>
           </div>
-          <p className="ml-8 mt-36">
+          <p className="ml-8 mt-36 md:block hidden">
             Website Designed & Developed by{" "}
             <span className="underline underline-offset-4 ">
               Luxury Presence
